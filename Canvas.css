@@ -1,0 +1,204 @@
+/************************************************************
+ * General setting
+ ************************************************************/
+ div {
+    font-family:'Lemon', cursive;
+    font-size: 24px;
+    color: #dddddd;
+    text-align: left;
+    text-indent: 8px;
+    line-height: 80%;
+}
+/************************************************************
+ * Tool part
+ ************************************************************/
+ .toolbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 5%;
+    height: 100%;
+    background: linear-gradient(#aaa, #777);
+}
+/************************************************************
+ * Panel part
+ ************************************************************/
+ .panel {
+    position: fixed;
+    top: 0px;
+    left: 5%;
+    background: url(res/transparent.png);
+}
+/************************************************************
+ * Toolbar part
+ ************************************************************/
+ .toolbutton {
+    position: relative;
+    top: 0px;
+    margin: 6px;
+    border-radius:3px;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    width: 60px;
+    height: 60px;
+ }
+.toolbutton:hover {
+    border-right: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+.toolbutton:active {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.toolbutton#toolbuttonCanvas {
+    background: url(res/CanvasLogo.png);
+    background-size: 100% 100%;
+}
+.toolbutton#toolbuttonPencil {
+    background: url(res/edit.png);
+    background-size: 100% 100%;
+}
+.toolbutton#toolbuttonBrush {
+    background: url(res/paint_brush.png) no-repeat;
+    background-size: 90% 90%;
+}
+.toolbutton#toolbuttonEraser {
+    background: url(res/eraser.png);
+    background-size: 100% 100%;
+}
+.toolbutton#toolbuttonPT {
+    background: url(res/PT.png);
+    background-size: 100% 100%;
+}
+.toolbutton#toolbuttonPaintBucket {
+    background: url(res/PaintBucket.png);
+    background-size: 100% 100%;
+}
+.toolbutton#toolbuttonSave {
+    background: url(res/save.png);
+    background-size: 100% 100%;
+}
+.toolbutton#toolbuttonPush {
+    background: url(res/fb-logo.png);
+    background-size: 100% 100%;
+}
+/************************************************************
+ * Detailbar part
+ ************************************************************/
+ .detailbar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 15%;
+    height: 100%;
+    background: linear-gradient(#999, #444);
+}
+.detailbarSetting {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60%;
+}
+.previewScreen {
+    position: relative;
+    margin: 2px;
+    border: 4px solid #ccc;
+    border-radius: 3px;
+    background: url(res/transparent.png);
+}
+.colorSetting {
+    position: relative;
+    margin: 2px;
+    width: 98%;
+    height: 15%;
+    background: gray;
+}
+.colorbar {
+    position: relative;
+    float: left;
+    top: 22px;
+    left: 5px;
+    width: 70%;
+    background: #ccc;
+}
+.colorPanel {
+    position: relative;
+    float: right;
+    top: 20px;
+    right: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    background: url(res/colorPanel.png);
+    background-color: #aaa;
+    background-size: 100% 100%;
+}
+.colorPanel:hover {
+    background-color: white;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.colorPanel:active {
+    background-color: #ccc;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.Setting {
+    position: relative;
+    margin: 2px;
+    margin-top: 0px;
+    width: 98%;
+    height: 10%;
+}
+.sizebar {
+    position: relative;
+    margin: 10px;
+}
+.detailbarLayer {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+}
+.PTbutton {
+    position: relative;
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+    left: 3px;
+    bottom: 5px;
+    float:left;
+    border-radius: 3px;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    background-color: #aaa;
+}
+.PTbutton:hover {
+    background-color: white;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.PTbutton:active {
+    background-color: #ccc;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.PTbutton#PTline {
+    background: url(res/line.png);
+    background-size: 100% 100%;
+}
+.PTbutton#PTcircle {
+    background: url(res/circle.png);
+    background-size: 100% 100%;
+}
+.PTbutton#PTrect {
+    background: url(res/rect.png);
+    background-size: 100% 100%;
+}
+.clean {
+    clear:both;
+}
